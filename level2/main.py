@@ -1,6 +1,6 @@
 ###############################################################################################################
 ## 
-## drivy_backend_challenge - level 1
+## drivy_backend_challenge - level 2
 ## Author: Filipe Penna Ceravolo Soares
 ## Date: 07/01/2023
 ##
@@ -148,17 +148,6 @@ def get_price(car, rent):
     distance_component = car.price_per_km * rent.distance
 
     return int(time_component + distance_component)
-
-# rental_days = 15
-# car_price = 1000
-# rental_price = [car_price] * rental_days
-# for i, price in enumerate(rental_price):
-#     if i >= 10: 
-#         rental_price[i] = price * 0.5
-#     elif i >= 4:
-#         rental_price[i] = price * 0.7
-#     elif i >= 1:
-#         rental_price[i] = price * 0.9
 
 # create json output
 def export_output(rentals, filename):
