@@ -1,33 +1,22 @@
 # Drivy Back-end Challenge
 
-## Requirements
+Author: Filipe Penna <br>
+Date: 08/01/2022
 
-```ruby
-ruby '2.5.1'
+## Development of the solution
 
-gems:
-  gem 'minitest', '~> 5.11', '>= 5.11.3'
-  gem 'require_all', '~> 2.0'
+The solution was developed using the OO paradigm. <br>
+It sucessfully addresses all the base test cases. <br>
+It also consider the case in which the inputs are not passed with ordered ids. <br>
 
-```
+## Run the solution
 
-## Getting started
+The solution was developed used Python 3.11.0. It import the following modules:
 
-To install necessary gems, run:
+- datetime
+- json
+- operator
+- os
 
-```ruby
-bundle install
-```
+All of these modules are built-in. All the environment installed packages nevertheless can be found in requirements in the pip_freeze.txt file.
 
-## Usage
-
-To see solution for each level, checkout a branch for a specific level and get
-output (found in `src/data/output.json`) by executing (at `src/`):
-
-```ruby
-ruby main.rb
-```
-
-## Running tests
-
-Run `rake test` (or simply `rake`) to run all the tests.
