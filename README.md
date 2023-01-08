@@ -18,5 +18,5 @@ The solution was developed used Python 3.11.0. It import the following modules:
 - operator
 - os
 
-All of these modules are built-in. All the environment installed packages nevertheless can be found in requirements in the pip_freeze.txt file.
+All of these modules are built-in. 
 
